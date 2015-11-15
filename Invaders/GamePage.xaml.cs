@@ -33,14 +33,14 @@ namespace Invaders
 
         }
 
-       
-             private void Grid_KeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
-                {
-                    if (args.VirtualKey == Windows.System.VirtualKey.Right)
-                        Canvas.SetLeft(player, Canvas.GetLeft(player) + 30);
-                    else if (args.VirtualKey == Windows.System.VirtualKey.Left)
-                        Canvas.SetLeft(player, Canvas.GetLeft(player) - 30);
-                }
+        private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            
+            if (args.VirtualKey == Windows.System.VirtualKey.Right)
+                Canvas.SetLeft(player, Canvas.GetLeft(player) + 30);
+            else if (args.VirtualKey == Windows.System.VirtualKey.Left)
+                Canvas.SetLeft(player, Canvas.GetLeft(player) - 30);
+        }
     
     }
 }

@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-13T22:08:38.756</Modified>
+      <Modified>2015-11-13T22:12:11.112</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +136,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\entrypoint\Invaders.exe">
       <PackagePath>entrypoint\Invaders.exe</PackagePath>
-      <Modified>2015-11-13T22:08:37.387</Modified>
+      <Modified>2015-11-13T22:12:10.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\Fonts\space_invaders.ttf">
       <PackagePath>Fonts\space_invaders.ttf</PackagePath>
@@ -144,7 +144,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\Invaders.exe">
       <PackagePath>Invaders.exe</PackagePath>
-      <Modified>2015-11-13T22:08:38.755</Modified>
+      <Modified>2015-11-13T22:12:11.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\Invaders.xr.xml">
       <PackagePath>Invaders.xr.xml</PackagePath>
@@ -180,7 +180,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-13T22:08:38.323</Modified>
+      <Modified>2015-11-13T22:12:10.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
