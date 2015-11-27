@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x86\Release\ilc\intermediate\ILTransformed\Invaders.metadata"
+/gvmAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x86\Release\ilc\intermediate\ILTransformed\Invaders.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x86\Release\ilc\intermediate\ILTransformed\Invaders.ilexe"
+/out "C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x86\Release\ilc\intermediate\MDIL\Invaders.mdilexe"

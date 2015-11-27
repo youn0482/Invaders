@@ -32,14 +32,46 @@ namespace Invaders
             Frame.Navigate(typeof(MainPage));
         }
 
+        
+
         private void howBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(HowToPlay));
+            settingsGrid.Visibility = Visibility.Collapsed;
+            aboutGrid.Visibility = Visibility.Collapsed;
+            howGrid.Visibility = Visibility.Visible;
+
+            settingsBtn.RequestedTheme = ElementTheme.Light;
+            aboutBtn.RequestedTheme = ElementTheme.Light;
+            howBtn.RequestedTheme = ElementTheme.Dark;
+
+
         }
 
         private void aboutBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(About));
+            settingsGrid.Visibility = Visibility.Collapsed;
+            aboutGrid.Visibility = Visibility.Visible;
+            howGrid.Visibility = Visibility.Collapsed;
+
+            settingsBtn.RequestedTheme = ElementTheme.Light;
+            aboutBtn.RequestedTheme = ElementTheme.Dark;
+            howBtn.RequestedTheme = ElementTheme.Light;
+        }
+
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            settingsGrid.Visibility = Visibility.Visible;
+            aboutGrid.Visibility = Visibility.Collapsed;
+            howGrid.Visibility = Visibility.Collapsed;
+
+            settingsBtn.RequestedTheme = ElementTheme.Dark;
+            aboutBtn.RequestedTheme = ElementTheme.Light;
+            howBtn.RequestedTheme = ElementTheme.Light;
+        }
+
+        private void playBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(GamePage));
         }
     }
 }

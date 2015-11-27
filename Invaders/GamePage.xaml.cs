@@ -36,11 +36,15 @@ namespace Invaders
         private void Grid_KeyDown(object sender, KeyRoutedEventArgs e)
         {
             
-            if (args.VirtualKey == Windows.System.VirtualKey.Right)
-                Canvas.SetLeft(player, Canvas.GetLeft(player) + 30);
-            else if (args.VirtualKey == Windows.System.VirtualKey.Left)
-                Canvas.SetLeft(player, Canvas.GetLeft(player) - 30);
+           // if (args.VirtualKey == Windows.System.VirtualKey.Right)
+           //     Canvas.SetLeft(player, Canvas.GetLeft(player) + 30);
+          //  else if (args.VirtualKey == Windows.System.VirtualKey.Left)
+           //     Canvas.SetLeft(player, Canvas.GetLeft(player) - 30);
         }
-    
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }

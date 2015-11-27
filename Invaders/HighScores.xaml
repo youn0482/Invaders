@@ -77,11 +77,12 @@
                 Height="52"
                 
                 />
-                <Button x:Name="scoresPlayBtn" 
+                <Button x:Name="playBtn" 
                 Content=" New Game" 
                 HorizontalAlignment="Stretch" 
                 VerticalContentAlignment="Center"
                 Grid.Column="1"
+                        Click="playBtn_Click"
                 Margin="10,0,10,0"
                 VerticalAlignment="Center"
                 BorderBrush="Yellow"
@@ -90,6 +91,8 @@
                 Height="52" Width="auto"
                    
                 />
+                
+                
 
             </Grid>
        

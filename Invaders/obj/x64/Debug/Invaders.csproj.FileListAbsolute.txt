@@ -443,7 +443,6 @@ C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x64\De
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\Settings.g.cs
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\Settings.xaml
 C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\Settings.xbf
-C:\Users\Matt\Documents\Visual Studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\Invaders.csprojResolveAssemblyReference.cache
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Fonts\space_invaders.ttf
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\Assets\sprites\alien-1-1.png
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\bin\x64\Debug\Core\Assets\sprites\alien-1-2.png
@@ -498,3 +497,4 @@ C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\obj\x64\De
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\GamePage.g.cs
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\GamePage.xaml
 C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\GamePage.xbf
+C:\Users\Matt\documents\visual studio 2015\Projects\Invaders\Invaders\obj\x64\Debug\Invaders.csprojResolveAssemblyReference.cache

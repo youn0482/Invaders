@@ -8,6 +8,28 @@
     mc:Ignorable="d">
 
     <Grid KeyDown="Grid_KeyDown">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="desktopView">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="850"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="mobileView">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="underDev.FontSize" Value="35"/>
+                        <Setter Target="backBtn.FontSize" Value="15"/>
+                        <Setter Target="backBtn.Height" Value="50"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+
         <Grid.Background>
             <ImageBrush Stretch="None" ImageSource="ms-appx:///Assets/sprites/spacedust1.jpg" AlignmentY="Top" AlignmentX="Center"/>
         </Grid.Background>
@@ -17,10 +39,25 @@
     
             <Image x:Name="player" Canvas.Left="0" Canvas.Top="0" Source="Assets/sprites/player.png" Height="32"/>
         </Canvas>
-       
         
-        
-        
+            <TextBlock x:Name="underDev" FontSize="60"
+                Foreground="Yellow"
+                FontFamily="Fonts/space_invaders.ttf#Space Invaders" HorizontalAlignment="center" Margin="0,300,0,25" TextWrapping="Wrap" Text=" UNDER DEVELOPMENT" VerticalAlignment="Top"/>
+
+        <Button x:Name="backBtn" 
+                Content="Back to Menu" 
+                HorizontalAlignment="Stretch" 
+                VerticalContentAlignment="Center"
+                VerticalAlignment="Center" Click="backBtn_Click" 
+                Width="auto"
+                Margin="25,25,25,0"
+                MaxWidth="700"
+                BorderBrush="Yellow"
+                FontSize="40"
+                Foreground="Yellow"
+                FontFamily="Fonts/space_invaders.ttf#Space Invaders"
+                Height="100"
+                />
 
     </Grid>
 </Page>

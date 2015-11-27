@@ -34,11 +34,9 @@ namespace Invaders
                 Frame.GoBack();
             }
         }
-
-        private void getScores()
+        private void playBtn_Click(object sender, RoutedEventArgs e)
         {
-
-
+            Frame.Navigate(typeof(GamePage));
         }
     }
 }

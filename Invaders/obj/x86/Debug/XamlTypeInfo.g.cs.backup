@@ -132,17 +132,21 @@ namespace Invaders.Invaders_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
-            _typeNameTable[0] = "Invaders.HighScores";
+            _typeNameTable = new string[6];
+            _typeNameTable[0] = "Invaders.GamePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Invaders.MainPage";
+            _typeNameTable[3] = "Invaders.HighScores";
+            _typeNameTable[4] = "Invaders.MainPage";
+            _typeNameTable[5] = "Invaders.Settings";
 
-            _typeTable = new global::System.Type[4];
-            _typeTable[0] = typeof(global::Invaders.HighScores);
+            _typeTable = new global::System.Type[6];
+            _typeTable[0] = typeof(global::Invaders.GamePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Invaders.MainPage);
+            _typeTable[3] = typeof(global::Invaders.HighScores);
+            _typeTable[4] = typeof(global::Invaders.MainPage);
+            _typeTable[5] = typeof(global::Invaders.Settings);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -177,8 +181,10 @@ namespace Invaders.Invaders_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_HighScores() { return new global::Invaders.HighScores(); }
-        private object Activate_3_MainPage() { return new global::Invaders.MainPage(); }
+        private object Activate_0_GamePage() { return new global::Invaders.GamePage(); }
+        private object Activate_3_HighScores() { return new global::Invaders.HighScores(); }
+        private object Activate_4_MainPage() { return new global::Invaders.MainPage(); }
+        private object Activate_5_Settings() { return new global::Invaders.Settings(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -190,9 +196,9 @@ namespace Invaders.Invaders_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Invaders.HighScores
+            case 0:   //  Invaders.GamePage
                 userType = new global::Invaders.Invaders_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_HighScores;
+                userType.Activator = Activate_0_GamePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -205,9 +211,23 @@ namespace Invaders.Invaders_XamlTypeInfo
                 xamlType = new global::Invaders.Invaders_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Invaders.MainPage
+            case 3:   //  Invaders.HighScores
                 userType = new global::Invaders.Invaders_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_HighScores;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Invaders.MainPage
+                userType = new global::Invaders.Invaders_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  Invaders.Settings
+                userType = new global::Invaders.Invaders_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Settings;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
